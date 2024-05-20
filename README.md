@@ -25,7 +25,7 @@ RDVRplus: Our basic RDVR + high-resolution fine-tuning.
 
 RDVRplusplus: Our basic RDVR + high-resolution fine-tuning + low-resolution enhancer (please see our supplymentary material for the details of low-resolution enhancer).
 
-RDVR-H265: Combing our basic RDVR with H.265 video compression. There are two stages in trainning. For stage 1 we train a basic RDVR for scale factor of 2 with BD downsampling for 250000 iterations. The second stage has 50000 iterations with H.265 video compression. At the second stage we apply the bicubically downsampled frames for the inputs of H.265 encoding in the first 25000 iterations. We use the outputs of the downsampling network for the inputs of H.265 encoding in the next 25000 iterations at stage 2.
+RDVR-H265: Combing our basic RDVR with H.265 video compression. There are two stages in trainning. For stage 1 we train a basic RDVR for scale factor of 2 with BD downsampling for 250000 iterations. The second stage has 50000 iterations with H.265 video compression. At the second stage we apply the bicubically downsampled frames for the inputs of H.265 encoding in the first 25000 iterations. We use the outputs of the downsampling network for the inputs of H.265 encoding in the next 25000 iterations at stage 2. Note that our final model is "RDVR-H265-Stage2-Step2".
 
 ## For training one model, enter the "codes" folder of the model, and run
 
