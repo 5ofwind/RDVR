@@ -20,7 +20,7 @@ https://pan.baidu.com/s/1YOC3zna5mSAU9touCU-Wfw
 
 Password：w3pg
 
-## The definitions of the folders:
+## The definitions of the folders
 
 RDVR: Our basic RDVR.
 
