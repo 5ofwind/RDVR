@@ -40,8 +40,13 @@ You can edit test.sh" to select the testing datasets.
 ## If you find that our work is useful, please cite:
 
 @article{li2024video,
+
   title={Video Rescaling with Recurrent Diffusion},
+  
   author={Li, Dingyi and Liu, Yu and Wang, Zengfu and Yang, Jian},
+  
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  
   year={2024}
+  
 }
