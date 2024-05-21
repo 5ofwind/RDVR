@@ -1,4 +1,4 @@
-## This is the implementation of our paper "Video Rescaling with Recurrent Diffusion". The codes are in our ZIP file "RDVR-master-codes.zip".
+## This is the implementation of our paper "Video Rescaling with Recurrent Diffusion". The codes are in the ZIP file "RDVR-master-codes.zip".
 Li, D., Liu, Y., Wang, Z., Yang, J.: Video rescaling with recurrent diffusion. IEEE Transactions on Circuits and Systems for Video Technology. pp. 1–14 (2024)
 
 ## Abstract
