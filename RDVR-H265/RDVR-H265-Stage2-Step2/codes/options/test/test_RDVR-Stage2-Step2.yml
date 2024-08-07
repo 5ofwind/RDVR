@@ -1,0 +1,45 @@
+name: test_RDVR-H265-Stage2-Step2
+suffix: ~  # add suffix to saved images
+model: MIMO-VRN
+distortion: sr
+scale: 2
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+gpu_ids: [0]
+gop: 5
+
+datasets:
+  test:
+    name: Vid4
+    mode: video_test
+    dataroot_GT: /hy-tmp/Datasets/Vid4/GT
+    dataroot_LQ: /hy-tmp/Datasets/Vid4/GT #LQ path is not used
+
+    N_frames: 1
+    padding: 'new_info'
+    pred_interval: -1
+
+    n_workers: 0 # per GPU
+
+#### network
+network_G:
+  which_model_G:
+    subnet_type: DBNet
+  in_nc: 3
+  out_nc: 3
+  block_num: [6]
+  scale: 2
+  init: xavier
+  block_num_rbm: 8
+
+  h265_deart: False
+  h265_q_test_or_val: 27.5 #27.5 #23.5 #20 #16.5
+  h265_keyint: -1
+  h265_all_default: true
+  fh_loss: l2
+  stp_hidden_c: 24 
+  stp_denseblock_innerc: 12
+
+#### path
+path:
+  pretrain_model_G: ../trained_models/RDVR-H265-Stage2-Step2.pth
+  strict_load: true
