@@ -1,4 +1,4 @@
-## This is the implementation of "Video Rescaling with Recurrent Diffusion".
+## Video Rescaling with Recurrent Diffusion
 Li, D., Liu, Y., Wang, Z., Yang, J.: Video rescaling with recurrent diffusion. IEEE Transactions on Circuits and Systems for Video Technology. pp. 1–14 (2024)
 
 ## Abstract
