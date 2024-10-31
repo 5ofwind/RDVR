@@ -50,6 +50,12 @@ sh test.sh
   
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
   
+  volume={34},
+  
+  number={10},
+  
+  pages={1386--1399},
+  
   year={2024}
   
 }
