@@ -44,7 +44,7 @@ sh test.sh
 
 @article{li2024video,
 
-  title={Video Rescaling With Recurrent Diffusion},
+  title={Video rescaling with recurrent diffusion},
   
   author={Li, Dingyi and Liu, Yu and Wang, Zengfu and Yang, Jian},
   
