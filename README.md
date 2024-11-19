@@ -42,6 +42,8 @@ sh test.sh
 
 ## You can edit test.sh" to select the testing datasets.
 
+## The codes are based on MIMO-VRN and SelfC.
+
 ## If you find that our work is useful, please cite:
 
 @article{li2024video,
