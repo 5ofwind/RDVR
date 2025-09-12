@@ -8,10 +8,10 @@ Video rescaling helps to fit different display devices. In video rescaling syste
 
 ## Prerequisite
 - Python 3
-- PyTorch >= 1.4.0
+- PyTorch 1.10.0
 - NVIDIA GPU + CUDA
 - Python Package: "pip install numpy==1.19.0 opencv-python lmdb pyyaml"
-- FFmpeg with H.265 codec activated, for RDVR-H265
+- FFmpeg 4.2.2 with H.265 codec activated, for RDVR-H265
 
 ## Training Data Preparation
 We adopt the LMDB format for training. The script is provided in `codes/data_scripts`.
